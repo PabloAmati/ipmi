@@ -31,10 +31,7 @@ void draw() {
   line(605, 300, 690, 330);    // Abierta der
 
   // Cara
-  ellipse(592, 110, 6, 6);   
-  ellipse(608, 110, 6, 6);   
-  line(593, 125, 607, 125);   
-  fill(0);
-  textSize(30);
-  text(mouseX + " - " + mouseY, mouseX, mouseY);
+  ellipse(592, 110, 6, 6);
+  ellipse(608, 110, 6, 6);
+  line(593, 125, 607, 125);
 }
